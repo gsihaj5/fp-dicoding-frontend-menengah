@@ -1,0 +1,43 @@
+.current-playback-element {
+    display: flex;
+
+}
+
+.current-playback-element .track-info {
+    font-size: 1rem;
+}
+
+.current-playback-element .track-img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.current-playback-element .image-container {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+
+}
+
+.current-playback-element .image-container .artist-img {
+    position: relative;
+    bottom: 45px;
+    width: 35px;
+    height: 35px;
+}
+
+
+.current-playback-element .track-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.current-playback-element .artist-info {
+    font-weight: normal;
+    font-size: 0.7rem;
+
+}

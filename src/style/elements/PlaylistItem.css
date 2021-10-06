@@ -1,0 +1,11 @@
+.playlist-item-element {
+    font-size: .8rem;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.playlist-item-element .underline {
+    background-color: #585858;
+    height: 1px;
+    width: 80%;
+}

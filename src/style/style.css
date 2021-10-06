@@ -1,0 +1,132 @@
+body {
+    background-color: #212121;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins, sans-serif, serif;
+    font-size: 1.5rem;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.app-title {
+    position: absolute;
+    left: 10px;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 0 10px 5px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.button.login-button {
+    background-color: #1db954;
+    font-weight: normal;
+    margin-bottom: 300px;
+}
+
+.button.login-button:hover {
+    background-color: rgba(29, 185, 84, 0.79);
+    cursor: pointer;
+}
+
+.button.logout-button {
+    position: absolute;
+    right: 10px;
+    color: #D42C2C;
+    font-size: 1.2rem;
+    transition: 3ms;
+}
+
+.button.logout-button:hover {
+    background-color: #585858;
+    color: white;
+    cursor: pointer;
+}
+
+.user-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-welcome img {
+    width: 200px;
+    height: 200px;
+}
+
+.user-devices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.track-history-container {
+    font-weight: bold;
+    width: 50%;
+}
+
+.track-history {
+    margin-top: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.playlist-container {
+    width: 40%;
+    font-weight: bold;
+}
+
+.playlist {
+    margin-top: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-weight: normal;
+}
+
+.current-track-title {
+    margin-bottom: 20px;
+}
+
+
+.current-track {
+    height: 120px;
+    background-color: #585858;
+    border-radius: 25px;
+    padding: 18px;
+    margin: 0 10px;
+    width: 85%;
+}
+
+@media only screen and (min-width: 600px) {
+    .current-track {
+        width: 500px;
+    }
+}
+
+.login-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #212121;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: bold;
+}

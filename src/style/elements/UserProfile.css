@@ -1,0 +1,31 @@
+.user-profile-element {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user-profile-element img {
+    border-radius: 100px;
+}
+
+.user-profile-element .loading-block {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: colorshift 1s infinite;
+}
+
+@keyframes colorshift {
+    0% {
+        background-color: grey;
+    }
+    50% {
+        background-color: white;
+    }
+    100% {
+        background-color: grey;
+    }
+
+}
