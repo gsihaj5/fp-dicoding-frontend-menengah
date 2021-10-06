@@ -14,8 +14,8 @@ export default class SpotifyApi {
     API_URL_GET_PLAYLIST = this.BASE_URL_API + "/me/playlists";
 
     constructor() {
-        this.client_id = "820e51135e894e039f2e6f289313f754";
-        this.client_secret = "f1cb36a2e6164f39a27f0a4a10d2c154";
+        this.client_id = "185df5e9c1cd4709a5fe903cdf65087d";
+        this.client_secret = "2443763eb91e4e3785dbcc83e1a4b0fe";
 
         this.token = localStorage.getItem("spotify-token");
         this.refresh_token = localStorage.getItem("spotify-refresh-token");
