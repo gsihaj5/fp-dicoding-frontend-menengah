@@ -2,7 +2,7 @@ const axios = require("axios").default;
 const querystring = require("querystring");
 
 export default class SpotifyApi {
-    URL_REDIRECT = "spotifydashboard.gerrysihaj.com/";
+    URL_REDIRECT = "http://spotifydashboard.gerrysihaj.com/";
     BASE_URL_AUTHORIZATION = "https://accounts.spotify.com/authorize";
     BASE_URL_TOKEN = "https://accounts.spotify.com/api/token";
 
