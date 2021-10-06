@@ -1,7 +1,9 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+require("babel-core/register");
+require("babel-polyfill");
 
 module.exports = {
-    entry: "./src/js/main.js",
+    entry: ["babel-polyfill", "./src/js/main.js"],
     output: {
         path: __dirname + "/dist",
         filename: "main.js",
